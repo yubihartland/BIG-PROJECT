@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="141" failures="0" name="StepDefinitions.RunCukesTest" time="20.694" errors="16" skipped="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin"/>
+    <property name="java.vm.version" value="25.321-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\yubihartland\Desktop\BIG_PROJECT_SELENIUM2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\yubihartland\Desktop\BIG_PROJECT_SELENIUM2"/>
+    <property name="java.runtime.version" value="1.8.0_321-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\YUBIHA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\yubihartland\Documents\FILE\QA\SOFTWARE QA\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_321\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Users\yubihartland\Documents\QA\SOFTWARE QA\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\yubihartland\Documents\FILE\QA\SOFTWARE QA\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Python27;C:\Users\yubihartland\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\yubihartland\AppData\Roaming\npm;C:\Python27\Scripts;;."/>
+    <property name="maven.conf" value="C:\Users\yubihartland\Documents\FILE\QA\SOFTWARE QA\apache-maven-3.8.4-bin\apache-maven-3.8.4/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\yubihartland\Documents\FILE\QA\SOFTWARE QA\apache-maven-3.8.4-bin\apache-maven-3.8.4\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\yubihartland"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="yubihartland"/>
+    <property name="java.class.path" value="C:\Users\yubihartland\Documents\FILE\QA\SOFTWARE QA\apache-maven-3.8.4-bin\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_321\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_321"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_321\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\yubihartland\Documents\FILE\QA\SOFTWARE QA\apache-maven-3.8.4-bin\apache-maven-3.8.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Normal Login" name="Given User open the Cicle Sign page" time="0"/>
+  <testcase classname="Scenario: Normal Login" name="When User input &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password" time="0"/>
+  <testcase classname="Scenario: Normal Login" name="Then User see dashboard" time="0"/>
+  <testcase classname="Scenario: Normal Login" name="Scenario: Normal Login" time="1.799"/>
+  <testcase classname="Scenario: Click Paket C" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Dashboard" time="0"/>
+  <testcase classname="Scenario: Click Paket C" name="And User Click Paket C" time="0"/>
+  <testcase classname="Scenario: Click Paket C" name="Then User see Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Click Paket C" name="Scenario: Click Paket C" time="0.894"/>
+  <testcase classname="Scenario: Bell notif Feature" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Dashboard" time="0"/>
+  <testcase classname="Scenario: Bell notif Feature" name="And User Click Paket C" time="0"/>
+  <testcase classname="Scenario: Bell notif Feature" name="Then User see Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Bell notif Feature" name="When Check bell Notif" time="0"/>
+  <testcase classname="Scenario: Bell notif Feature" name="Scenario: Bell notif Feature" time="0.893"/>
+  <testcase classname="Scenario: Direct Message Feature" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Dashboard" time="0"/>
+  <testcase classname="Scenario: Direct Message Feature" name="And User Click Paket C" time="0"/>
+  <testcase classname="Scenario: Direct Message Feature" name="Then User see Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Direct Message Feature" name="When Open and Input Direct Message to &quot;yubihartland&quot; as a name" time="0"/>
+  <testcase classname="Scenario: Direct Message Feature" name="Scenario: Direct Message Feature" time="0.907"/>
+  <testcase classname="Scenario: Check-ins verify to the link page" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Check-ins verify to the link page" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Check-ins verify to the link page" name="Then User see Check-ins page" time="0"/>
+  <testcase classname="Scenario: Check-ins verify to the link page" name="Scenario: Check-ins verify to the link page" time="0.924"/>
+  <testcase classname="Scenario: Create checkin" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Create checkin" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Create checkin" name="Then User see Check-ins page" time="0.008">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[.=&apos;Check-Ins&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e9b16930288373bc3aaf469599743718
+*** Element info: {Using=xpath, value=//h1[.=&apos;Check-Ins&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[.=&apos;Check-Ins&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e9b16930288373bc3aaf469599743718
+*** Element info: {Using=xpath, value=//h1[.=&apos;Check-Ins&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pageObject.CheckinsPage.isPageDisplayedCheckins(CheckinsPage.java:149)
+	at StepDefinitions.CheckinsSteps.isDashboardIsDisplayed(CheckinsSteps.java:51)
+	at ✽.Then User see Check-ins page(features/ID03_Check-ins.feature:12)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Create checkin" name="Scenario: Create checkin" time="0.016">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[.=&apos;Check-Ins&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e9b16930288373bc3aaf469599743718
+*** Element info: {Using=xpath, value=//h1[.=&apos;Check-Ins&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[.=&apos;Check-Ins&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e9b16930288373bc3aaf469599743718
+*** Element info: {Using=xpath, value=//h1[.=&apos;Check-Ins&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pageObject.CheckinsPage.isPageDisplayedCheckins(CheckinsPage.java:149)
+	at StepDefinitions.CheckinsSteps.isDashboardIsDisplayed(CheckinsSteps.java:51)
+	at ✽.Then User see Check-ins page(features/ID03_Check-ins.feature:12)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Create checkin" name="When User Click Create Checkin" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Input Question Box" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Input Question Box" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Input Question Box" name="Then User see Check-ins page" time="0"/>
+  <testcase classname="Scenario: Input Question Box" name="When input &quot;Meeting&quot; in question box" time="0"/>
+  <testcase classname="Scenario: Input Question Box" name="Scenario: Input Question Box" time="0.86"/>
+  <testcase classname="Scenario: Choose Day Ask Button" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Choose Day Ask Button" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Choose Day Ask Button" name="Then User see Check-ins page" time="0"/>
+  <testcase classname="Scenario: Choose Day Ask Button" name="When Click day and Choose Monday until Sunday" time="0"/>
+  <testcase classname="Scenario: Choose Day Ask Button" name="Scenario: Choose Day Ask Button" time="0.94"/>
+  <testcase classname="Scenario: Member Tag Feature" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Member Tag Feature" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Member Tag Feature" name="Then User see Check-ins page" time="0"/>
+  <testcase classname="Scenario: Member Tag Feature" name="When User Tag Member yubihartland" time="0"/>
+  <testcase classname="Scenario: Member Tag Feature" name="Scenario: Member Tag Feature" time="0.917"/>
+  <testcase classname="Scenario: Private Check Button" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Private Check Button" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Private Check Button" name="Then User see Check-ins page" time="0"/>
+  <testcase classname="Scenario: Private Check Button" name="When User Click private check" time="0"/>
+  <testcase classname="Scenario: Private Check Button" name="Scenario: Private Check Button" time="0.904"/>
+  <testcase classname="Scenario: Start Collecting Answer Button" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Start Collecting Answer Button" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Start Collecting Answer Button" name="Then User see Check-ins page" time="0"/>
+  <testcase classname="Scenario: Start Collecting Answer Button" name="When User input &quot;Meeting&quot; as Question and Click Start Collecting Answer" time="0"/>
+  <testcase classname="Scenario: Start Collecting Answer Button" name="Scenario: Start Collecting Answer Button" time="0.969"/>
+  <testcase classname="Scenario: Cancel Start Collecting Answer Button" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Cancel Start Collecting Answer Button" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Cancel Start Collecting Answer Button" name="Then User see Check-ins page" time="0"/>
+  <testcase classname="Scenario: Cancel Start Collecting Answer Button" name="When Click Cancel Button And go to Checkin Page" time="0"/>
+  <testcase classname="Scenario: Cancel Start Collecting Answer Button" name="Scenario: Cancel Start Collecting Answer Button" time="1.048"/>
+  <testcase classname="Scenario: Click Data Checkin" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Click Data Checkin" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Click Data Checkin" name="Then User see Check-ins page" time="0"/>
+  <testcase classname="Scenario: Click Data Checkin" name="When Click Data Checkin and verify" time="0"/>
+  <testcase classname="Scenario: Click Data Checkin" name="Scenario: Click Data Checkin" time="0.923"/>
+  <testcase classname="Scenario: Home Button" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Home Button" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Home Button" name="Then User see Check-ins page" time="0"/>
+  <testcase classname="Scenario: Home Button" name="When Click Home Button" time="0"/>
+  <testcase classname="Scenario: Home Button" name="Scenario: Home Button" time="0.892"/>
+  <testcase classname="Scenario: Comment Data Chekin" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Comment Data Chekin" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Comment Data Chekin" name="Then User see Check-ins page" time="0"/>
+  <testcase classname="Scenario: Comment Data Chekin" name="When Input &quot;Test&quot; as Comment and save Comment" time="0"/>
+  <testcase classname="Scenario: Comment Data Chekin" name="Scenario: Comment Data Chekin" time="0.974"/>
+  <testcase classname="Scenario: Set Date Feature" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Set Date Feature" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Set Date Feature" name="Then User see Check-ins page" time="0"/>
+  <testcase classname="Scenario: Set Date Feature" name="When Set Date &quot;11.00 AM&quot; as a time" time="0"/>
+  <testcase classname="Scenario: Set Date Feature" name="Scenario: Set Date Feature" time="0.907"/>
+  <testcase classname="Scenario: Null Day Input" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Null Day Input" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Null Day Input" name="Then User see Check-ins page" time="0"/>
+  <testcase classname="Scenario: Null Day Input" name="When Input &quot;TEST123&quot; in Question box" time="0"/>
+  <testcase classname="Scenario: Null Day Input" name="And Null Input Day with verify response" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot; //h1[.=&apos;What question do you want to ask?&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff48c1cde3dc93e0c6356556ea569ff9
+*** Element info: {Using=xpath, value= //h1[.=&apos;What question do you want to ask?&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot; //h1[.=&apos;What question do you want to ask?&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff48c1cde3dc93e0c6356556ea569ff9
+*** Element info: {Using=xpath, value= //h1[.=&apos;What question do you want to ask?&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pageObject.CheckinsPage.verifyNullDay(CheckinsPage.java:269)
+	at StepDefinitions.CheckinsSteps.NullDayInput(CheckinsSteps.java:213)
+	at ✽.And Null Input Day with verify response(features/ID03_Check-ins.feature:82)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Null Day Input" name="Scenario: Null Day Input" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot; //h1[.=&apos;What question do you want to ask?&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff48c1cde3dc93e0c6356556ea569ff9
+*** Element info: {Using=xpath, value= //h1[.=&apos;What question do you want to ask?&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot; //h1[.=&apos;What question do you want to ask?&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff48c1cde3dc93e0c6356556ea569ff9
+*** Element info: {Using=xpath, value= //h1[.=&apos;What question do you want to ask?&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pageObject.CheckinsPage.verifyNullDay(CheckinsPage.java:269)
+	at StepDefinitions.CheckinsSteps.NullDayInput(CheckinsSteps.java:213)
+	at ✽.And Null Input Day with verify response(features/ID03_Check-ins.feature:82)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Group Chat verify to the link page" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Group Chat verify to the link page" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Group Chat verify to the link page" name="Then User see Group Chat page" time="0"/>
+  <testcase classname="Scenario: Group Chat verify to the link page" name="Scenario: Group Chat verify to the link page" time="1.064"/>
+  <testcase classname="Scenario: Group Chat Input" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Group Chat Input" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Group Chat Input" name="Then User see Group Chat page" time="0"/>
+  <testcase classname="Scenario: Group Chat Input" name="When Input &quot;Halo&quot; as a Chat and Send" time="0"/>
+  <testcase classname="Scenario: Group Chat Input" name="Scenario: Group Chat Input" time="1.046"/>
+  <testcase classname="Scenario: Verify Chat" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Verify Chat" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Verify Chat" name="Then User see Group Chat page" time="0"/>
+  <testcase classname="Scenario: Verify Chat" name="When Verify &quot;Halo&quot; as a Chat" time="0"/>
+  <testcase classname="Scenario: Verify Chat" name="Scenario: Verify Chat" time="0.961"/>
+  <testcase classname="Scenario: Tag member chat" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Tag member chat" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Tag member chat" name="Then User see Group Chat page" time="0"/>
+  <testcase classname="Scenario: Tag member chat" name="When Tag &quot;@yubihartland&quot; as member" time="0"/>
+  <testcase classname="Scenario: Tag member chat" name="Scenario: Tag member chat" time="0.95"/>
+  <testcase classname="Scenario: Attach file in collom chat" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Attach file in collom chat" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Attach file in collom chat" name="Then User see Group Chat page" time="0"/>
+  <testcase classname="Scenario: Attach file in collom chat" name="When Attach file &quot;C:\\Users\\yubihartland\\Desktop\\logo.png&quot; as a file" time="0"/>
+  <testcase classname="Scenario: Attach file in collom chat" name="Scenario: Attach file in collom chat" time="0.977"/>
+  <testcase classname="Scenario: Send Null Chat" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Send Null Chat" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Send Null Chat" name="Then User see Group Chat page" time="0"/>
+  <testcase classname="Scenario: Send Null Chat" name="When Input Null Chat" time="0.007">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@src=&apos;https://storage.googleapis.com/staging-cicle-app/61fd1bca835d691ce6fc470d/624d9c8db4dad6e15911fbc2/d1ccfb46f88fb97df83777f60af63248/logo.png&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 14e31abeb6396fb21af1e8e938bbd8dc
+*** Element info: {Using=xpath, value=//img[@src=&apos;https://storage.googleapis.com/staging-cicle-app/61fd1bca835d691ce6fc470d/624d9c8db4dad6e15911fbc2/d1ccfb46f88fb97df83777f60af63248/logo.png&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@src=&apos;https://storage.googleapis.com/staging-cicle-app/61fd1bca835d691ce6fc470d/624d9c8db4dad6e15911fbc2/d1ccfb46f88fb97df83777f60af63248/logo.png&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 14e31abeb6396fb21af1e8e938bbd8dc
+*** Element info: {Using=xpath, value=//img[@src=&apos;https://storage.googleapis.com/staging-cicle-app/61fd1bca835d691ce6fc470d/624d9c8db4dad6e15911fbc2/d1ccfb46f88fb97df83777f60af63248/logo.png&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pageObject.GroupChatPage.nullChat(GroupChatPage.java:128)
+	at StepDefinitions.GroupChatSteps.NullChat(GroupChatSteps.java:76)
+	at ✽.When Input Null Chat(features/ID04_GroupChat.feature:37)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Send Null Chat" name="Scenario: Send Null Chat" time="0.007">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@src=&apos;https://storage.googleapis.com/staging-cicle-app/61fd1bca835d691ce6fc470d/624d9c8db4dad6e15911fbc2/d1ccfb46f88fb97df83777f60af63248/logo.png&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 14e31abeb6396fb21af1e8e938bbd8dc
+*** Element info: {Using=xpath, value=//img[@src=&apos;https://storage.googleapis.com/staging-cicle-app/61fd1bca835d691ce6fc470d/624d9c8db4dad6e15911fbc2/d1ccfb46f88fb97df83777f60af63248/logo.png&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@src=&apos;https://storage.googleapis.com/staging-cicle-app/61fd1bca835d691ce6fc470d/624d9c8db4dad6e15911fbc2/d1ccfb46f88fb97df83777f60af63248/logo.png&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 14e31abeb6396fb21af1e8e938bbd8dc
+*** Element info: {Using=xpath, value=//img[@src=&apos;https://storage.googleapis.com/staging-cicle-app/61fd1bca835d691ce6fc470d/624d9c8db4dad6e15911fbc2/d1ccfb46f88fb97df83777f60af63248/logo.png&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pageObject.GroupChatPage.nullChat(GroupChatPage.java:128)
+	at StepDefinitions.GroupChatSteps.NullChat(GroupChatSteps.java:76)
+	at ✽.When Input Null Chat(features/ID04_GroupChat.feature:37)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Board verify to the link page" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Board verify to the link page" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Board verify to the link page" name="Then User see Board Page" time="0"/>
+  <testcase classname="Scenario: Board verify to the link page" name="Scenario: Board verify to the link page" time="0.876"/>
+  <testcase classname="Scenario: Add Card Feature" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Add Card Feature" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Add Card Feature" name="Then User see Board Page" time="0"/>
+  <testcase classname="Scenario: Add Card Feature" name="When User Add Card with &quot;HaloTest&quot; as name card" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ListContainer_ListContainer__outerList__1PG0-&apos;]/div[1]//div[@class=&apos;ListContainer_ListContainer__buttonBottom__2kZAI&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f356655229fb78eeea2acfcbe12cd3
+*** Element info: {Using=xpath, value=//div[@class=&apos;ListContainer_ListContainer__outerList__1PG0-&apos;]/div[1]//div[@class=&apos;ListContainer_ListContainer__buttonBottom__2kZAI&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ListContainer_ListContainer__outerList__1PG0-&apos;]/div[1]//div[@class=&apos;ListContainer_ListContainer__buttonBottom__2kZAI&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f356655229fb78eeea2acfcbe12cd3
+*** Element info: {Using=xpath, value=//div[@class=&apos;ListContainer_ListContainer__outerList__1PG0-&apos;]/div[1]//div[@class=&apos;ListContainer_ListContainer__buttonBottom__2kZAI&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at pageObject.BoardPage.addCardButton(BoardPage.java:126)
+	at StepDefinitions.BoardSteps.InputAddCardName(BoardSteps.java:34)
+	at ✽.When User Add Card with &quot;HaloTest&quot; as name card(features/ID05_Board.feature:13)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Add Card Feature" name="Scenario: Add Card Feature" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ListContainer_ListContainer__outerList__1PG0-&apos;]/div[1]//div[@class=&apos;ListContainer_ListContainer__buttonBottom__2kZAI&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f356655229fb78eeea2acfcbe12cd3
+*** Element info: {Using=xpath, value=//div[@class=&apos;ListContainer_ListContainer__outerList__1PG0-&apos;]/div[1]//div[@class=&apos;ListContainer_ListContainer__buttonBottom__2kZAI&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ListContainer_ListContainer__outerList__1PG0-&apos;]/div[1]//div[@class=&apos;ListContainer_ListContainer__buttonBottom__2kZAI&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f356655229fb78eeea2acfcbe12cd3
+*** Element info: {Using=xpath, value=//div[@class=&apos;ListContainer_ListContainer__outerList__1PG0-&apos;]/div[1]//div[@class=&apos;ListContainer_ListContainer__buttonBottom__2kZAI&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at pageObject.BoardPage.addCardButton(BoardPage.java:126)
+	at StepDefinitions.BoardSteps.InputAddCardName(BoardSteps.java:34)
+	at ✽.When User Add Card with &quot;HaloTest&quot; as name card(features/ID05_Board.feature:13)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Quick Comment Feature" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Quick Comment Feature" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Quick Comment Feature" name="Then User see Board Page" time="0"/>
+  <testcase classname="Scenario: Quick Comment Feature" name="When Input Quick Comment &quot;Test 123&quot; as comment" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ListContainer_ListContainer__outerList__1PG0-&apos;]//div[@class=&apos;ListCard_ListDroppable__1sdGc&apos;]/div[1]//div[@id=&apos;editCardMenu&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52752}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a697aabd101122016cd74ccbc8c0e84
+*** Element info: {Using=xpath, value=//div[@class=&apos;ListContainer_ListContainer__outerList__1PG0-&apos;]//div[@class=&apos;ListCard_ListDroppable__1sdGc&apos;]/div[1]//div[@id=&apos;editCardMenu&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ListContainer_ListContainer__outerList__1PG0-&apos;]//div[@class=&apos;ListCard_ListDroppable__1sdGc&apos;]/div[1]//div[@id=&apos;editCardMenu&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52752}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a697aabd101122016cd74ccbc8c0e84
+*** Element info: {Using=xpath, value=//div[@class=&apos;ListContainer_ListContainer__outerList__1PG0-&apos;]//div[@class=&apos;ListCard_ListDroppable__1sdGc&apos;]/div[1]//div[@id=&apos;editCardMenu&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at pageObject.BoardPage.menuBoardClick(BoardPage.java:141)
+	at StepDefinitions.BoardSteps.InputQuickComment(BoardSteps.java:48)
+	at ✽.When Input Quick Comment &quot;Test 123&quot; as comment(features/ID05_Board.feature:19)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Quick Comment Feature" name="Scenario: Quick Comment Feature" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ListContainer_ListContainer__outerList__1PG0-&apos;]//div[@class=&apos;ListCard_ListDroppable__1sdGc&apos;]/div[1]//div[@id=&apos;editCardMenu&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52752}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a697aabd101122016cd74ccbc8c0e84
+*** Element info: {Using=xpath, value=//div[@class=&apos;ListContainer_ListContainer__outerList__1PG0-&apos;]//div[@class=&apos;ListCard_ListDroppable__1sdGc&apos;]/div[1]//div[@id=&apos;editCardMenu&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ListContainer_ListContainer__outerList__1PG0-&apos;]//div[@class=&apos;ListCard_ListDroppable__1sdGc&apos;]/div[1]//div[@id=&apos;editCardMenu&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52752}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a697aabd101122016cd74ccbc8c0e84
+*** Element info: {Using=xpath, value=//div[@class=&apos;ListContainer_ListContainer__outerList__1PG0-&apos;]//div[@class=&apos;ListCard_ListDroppable__1sdGc&apos;]/div[1]//div[@id=&apos;editCardMenu&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at pageObject.BoardPage.menuBoardClick(BoardPage.java:141)
+	at StepDefinitions.BoardSteps.InputQuickComment(BoardSteps.java:48)
+	at ✽.When Input Quick Comment &quot;Test 123&quot; as comment(features/ID05_Board.feature:19)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Add List Feature" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Add List Feature" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Add List Feature" name="Then User see Board Page" time="0"/>
+  <testcase classname="Scenario: Add List Feature" name="When Add list Feature and input &quot;Feature Yubi&quot; as name" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[.=&apos;Add List&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52808}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28362c100090db8e6331e5e6c0ab1ab1
+*** Element info: {Using=xpath, value=//a[.=&apos;Add List&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[.=&apos;Add List&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52808}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28362c100090db8e6331e5e6c0ab1ab1
+*** Element info: {Using=xpath, value=//a[.=&apos;Add List&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at pageObject.BoardPage.clickAddListFeature(BoardPage.java:166)
+	at StepDefinitions.BoardSteps.addList(BoardSteps.java:65)
+	at ✽.When Add list Feature and input &quot;Feature Yubi&quot; as name(features/ID05_Board.feature:25)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Add List Feature" name="Scenario: Add List Feature" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[.=&apos;Add List&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52808}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28362c100090db8e6331e5e6c0ab1ab1
+*** Element info: {Using=xpath, value=//a[.=&apos;Add List&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[.=&apos;Add List&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52808}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28362c100090db8e6331e5e6c0ab1ab1
+*** Element info: {Using=xpath, value=//a[.=&apos;Add List&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at pageObject.BoardPage.clickAddListFeature(BoardPage.java:166)
+	at StepDefinitions.BoardSteps.addList(BoardSteps.java:65)
+	at ✽.When Add list Feature and input &quot;Feature Yubi&quot; as name(features/ID05_Board.feature:25)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Move Card Feature" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Move Card Feature" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Move Card Feature" name="Then User see Board Page" time="0"/>
+  <testcase classname="Scenario: Move Card Feature" name="When Move Card YUBI TEST" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/cards/62512a6496738afb37354a1b&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e87ad9e044ba64f98629672b24c59ab2
+*** Element info: {Using=xpath, value=//a[@href=&apos;/cards/62512a6496738afb37354a1b&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/cards/62512a6496738afb37354a1b&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e87ad9e044ba64f98629672b24c59ab2
+*** Element info: {Using=xpath, value=//a[@href=&apos;/cards/62512a6496738afb37354a1b&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at pageObject.BoardPage.clickYubiCardTest(BoardPage.java:181)
+	at StepDefinitions.BoardSteps.moveCard(BoardSteps.java:77)
+	at ✽.When Move Card YUBI TEST(features/ID05_Board.feature:31)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Move Card Feature" name="Scenario: Move Card Feature" time="0.015">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/cards/62512a6496738afb37354a1b&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e87ad9e044ba64f98629672b24c59ab2
+*** Element info: {Using=xpath, value=//a[@href=&apos;/cards/62512a6496738afb37354a1b&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/cards/62512a6496738afb37354a1b&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e87ad9e044ba64f98629672b24c59ab2
+*** Element info: {Using=xpath, value=//a[@href=&apos;/cards/62512a6496738afb37354a1b&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at pageObject.BoardPage.clickYubiCardTest(BoardPage.java:181)
+	at StepDefinitions.BoardSteps.moveCard(BoardSteps.java:77)
+	at ✽.When Move Card YUBI TEST(features/ID05_Board.feature:31)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Attach file in card board" name="Given User Login &quot;qa.yubi17@gmail.com&quot; as email &quot;yubi1234&quot; as password and direct to Paket C" time="0"/>
+  <testcase classname="Scenario: Attach file in card board" name="And User go to Dasboard Paket C" time="0"/>
+  <testcase classname="Scenario: Attach file in card board" name="Then User see Board Page" time="0"/>
+  <testcase classname="Scenario: Attach file in card board" name="When Attach file in board card Yubi &quot;C:\\Users\\yubihartland\\Desktop\\logo.png&quot; as a file" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/cards/62512a6496738afb37354a1b&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: abb74c0e5de429d186ccd80c6f00814b
+*** Element info: {Using=xpath, value=//a[@href=&apos;/cards/62512a6496738afb37354a1b&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/cards/62512a6496738afb37354a1b&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: abb74c0e5de429d186ccd80c6f00814b
+*** Element info: {Using=xpath, value=//a[@href=&apos;/cards/62512a6496738afb37354a1b&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at pageObject.BoardPage.clickYubiCardTest(BoardPage.java:181)
+	at StepDefinitions.BoardSteps.attachCardYubi(BoardSteps.java:94)
+	at ✽.When Attach file in board card Yubi &quot;C:\\Users\\yubihartland\\Desktop\\logo.png&quot; as a file(features/ID05_Board.feature:37)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Attach file in card board" name="Scenario: Attach file in card board" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/cards/62512a6496738afb37354a1b&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: abb74c0e5de429d186ccd80c6f00814b
+*** Element info: {Using=xpath, value=//a[@href=&apos;/cards/62512a6496738afb37354a1b&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/cards/62512a6496738afb37354a1b&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YUBIHARTLAND&apos;, ip: &apos;192.168.100.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\YUBIHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: abb74c0e5de429d186ccd80c6f00814b
+*** Element info: {Using=xpath, value=//a[@href=&apos;/cards/62512a6496738afb37354a1b&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at pageObject.BoardPage.clickYubiCardTest(BoardPage.java:181)
+	at StepDefinitions.BoardSteps.attachCardYubi(BoardSteps.java:94)
+	at ✽.When Attach file in board card Yubi &quot;C:\\Users\\yubihartland\\Desktop\\logo.png&quot; as a file(features/ID05_Board.feature:37)
+</error>
+  </testcase>
+</testsuite>

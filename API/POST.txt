@@ -1,0 +1,3 @@
+newman run BIGPROJECTCILSY.postman_collection.json -r htmlextra --reporter-htmlextra-title "BIG PROJECT"
+
+

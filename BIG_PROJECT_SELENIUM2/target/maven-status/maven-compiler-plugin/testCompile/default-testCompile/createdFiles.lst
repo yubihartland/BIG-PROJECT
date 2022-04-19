@@ -1,0 +1,8 @@
+StepDefinitions\BoardSteps.class
+com\yubi\AppTest.class
+StepDefinitions\CheckinsSteps.class
+StepDefinitions\Hooks.class
+StepDefinitions\DasboardPaketCSteps.class
+StepDefinitions\LoginSteps.class
+StepDefinitions\GroupChatSteps.class
+StepDefinitions\RunCukesTest.class

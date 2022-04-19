@@ -1,0 +1,2735 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7215046400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Normal Login",
+        "description": "",
+        "id": "login-feature;normal-login",
+        "after": [
+          {
+            "result": {
+              "duration": 1800167600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1971217500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open the Cicle Sign page",
+            "match": {
+              "location": "LoginSteps.verifyLoginPageIsDisplayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5213587300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User input \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginSteps.inputCreadential(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4785725400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User see dashboard",
+            "match": {
+              "location": "LoginSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "features/ID01_Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@all"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11363580300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Click Paket C",
+        "description": "",
+        "id": "dasboard-homepage;click-paket-c",
+        "after": [
+          {
+            "result": {
+              "duration": 892523800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9893401300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Dashboard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "DasboardPaketCSteps.loginToAccountPage(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9757490100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Click Paket C",
+            "match": {
+              "location": "DasboardPaketCSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5094237800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User see Dasboard Paket C",
+            "match": {
+              "location": "DasboardPaketCSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4300495800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Bell notif Feature",
+        "description": "",
+        "id": "dasboard-homepage;bell-notif-feature",
+        "after": [
+          {
+            "result": {
+              "duration": 892538400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9863070400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Dashboard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "DasboardPaketCSteps.loginToAccountPage(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5236486200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Click Paket C",
+            "match": {
+              "location": "DasboardPaketCSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5099825000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User see Dasboard Paket C",
+            "match": {
+              "location": "DasboardPaketCSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16145263000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Check bell Notif",
+            "match": {
+              "location": "DasboardPaketCSteps.checkBellNotif()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4536966500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Direct Message Feature",
+        "description": "",
+        "id": "dasboard-homepage;direct-message-feature",
+        "after": [
+          {
+            "result": {
+              "duration": 906970100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9916291500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Dashboard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "DasboardPaketCSteps.loginToAccountPage(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5216167500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User Click Paket C",
+            "match": {
+              "location": "DasboardPaketCSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5084392100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User see Dasboard Paket C",
+            "match": {
+              "location": "DasboardPaketCSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32569113400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Open and Input Direct Message to \"yubihartland\" as a name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "yubihartland",
+                  "offset": 34
+                }
+              ],
+              "location": "DasboardPaketCSteps.directMessage(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Dasboard HomePage",
+    "description": "",
+    "id": "dasboard-homepage",
+    "keyword": "Feature",
+    "uri": "features/ID02_DashboardPaketC.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@all"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4429456400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Check-ins verify to the link page",
+        "description": "",
+        "id": "check-ins-feature;check-ins-verify-to-the-link-page",
+        "after": [
+          {
+            "result": {
+              "duration": 923540000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11939993900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8252935100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10313109700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User see Check-ins page",
+            "match": {
+              "location": "CheckinsSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4110277500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Create checkin",
+        "description": "",
+        "id": "check-ins-feature;create-checkin",
+        "after": [
+          {
+            "result": {
+              "duration": 1176409800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11855871700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8250962400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5308129800,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[.\u003d\u0027Check-Ins\u0027]\"}\n  (Session info: chrome\u003d100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027YUBIHARTLAND\u0027, ip: \u0027192.168.100.6\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\YUBIHA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e9b16930288373bc3aaf469599743718\n*** Element info: {Using\u003dxpath, value\u003d//h1[.\u003d\u0027Check-Ins\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)\r\n\tat pageObject.CheckinsPage.isPageDisplayedCheckins(CheckinsPage.java:149)\r\n\tat StepDefinitions.CheckinsSteps.isDashboardIsDisplayed(CheckinsSteps.java:51)\r\n\tat ✽.Then User see Check-ins page(features/ID03_Check-ins.feature:12)\r\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "User see Check-ins page",
+            "match": {
+              "location": "CheckinsSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User Click Create Checkin",
+            "match": {
+              "location": "CheckinsSteps.clickCreateCheckin()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5062931000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Input Question Box",
+        "description": "",
+        "id": "check-ins-feature;input-question-box",
+        "after": [
+          {
+            "result": {
+              "duration": 859475700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12351893800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8217177000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10286452400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User see Check-ins page",
+            "match": {
+              "location": "CheckinsSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7470800000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "input \"Meeting\" in question box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Meeting",
+                  "offset": 7
+                }
+              ],
+              "location": "CheckinsSteps.inputQuestionBox(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9092311900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Choose Day Ask Button",
+        "description": "",
+        "id": "check-ins-feature;choose-day-ask-button",
+        "after": [
+          {
+            "result": {
+              "duration": 939112000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11749784100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8233084400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10302869800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User see Check-ins page",
+            "match": {
+              "location": "CheckinsSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16035277300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click day and Choose Monday until Sunday",
+            "match": {
+              "location": "CheckinsSteps.clickAndChooseDay()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9362722200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Member Tag Feature",
+        "description": "",
+        "id": "check-ins-feature;member-tag-feature",
+        "after": [
+          {
+            "result": {
+              "duration": 915829000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11762229000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9668189200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10253824900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User see Check-ins page",
+            "match": {
+              "location": "CheckinsSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10570246700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User Tag Member yubihartland",
+            "match": {
+              "location": "CheckinsSteps.ClicktagMember()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4240828100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Private Check Button",
+        "description": "",
+        "id": "check-ins-feature;private-check-button",
+        "after": [
+          {
+            "result": {
+              "duration": 903693900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11896345800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8201170500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10282382000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User see Check-ins page",
+            "match": {
+              "location": "CheckinsSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7385873700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User Click private check",
+            "match": {
+              "location": "CheckinsSteps.privateCheck()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4601279900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Start Collecting Answer Button",
+        "description": "",
+        "id": "check-ins-feature;start-collecting-answer-button",
+        "after": [
+          {
+            "result": {
+              "duration": 968897800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11845486600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8217996400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10284487900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User see Check-ins page",
+            "match": {
+              "location": "CheckinsSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12621017800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User input \"Meeting\" as Question and Click Start Collecting Answer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Meeting",
+                  "offset": 12
+                }
+              ],
+              "location": "CheckinsSteps.ClickstartCollecting(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4874018900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Cancel Start Collecting Answer Button",
+        "description": "",
+        "id": "check-ins-feature;cancel-start-collecting-answer-button",
+        "after": [
+          {
+            "result": {
+              "duration": 1048309400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12136297700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8187698200,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10328078400,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User see Check-ins page",
+            "match": {
+              "location": "CheckinsSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12524620300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Click Cancel Button And go to Checkin Page",
+            "match": {
+              "location": "CheckinsSteps.cancelStartCollectingButton()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4562679300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "Click Data Checkin",
+        "description": "",
+        "id": "check-ins-feature;click-data-checkin",
+        "after": [
+          {
+            "result": {
+              "duration": 922956800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11864585800,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8237261800,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10296356100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User see Check-ins page",
+            "match": {
+              "location": "CheckinsSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9295654700,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Click Data Checkin and verify",
+            "match": {
+              "location": "CheckinsSteps.clickDataheckin()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4581435500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Home Button",
+        "description": "",
+        "id": "check-ins-feature;home-button",
+        "after": [
+          {
+            "result": {
+              "duration": 890389000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11784055400,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8248375200,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10314121700,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User see Check-ins page",
+            "match": {
+              "location": "CheckinsSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9356639100,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Click Home Button",
+            "match": {
+              "location": "CheckinsSteps.clickHomeButton()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4609398200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 63,
+        "name": "Comment Data Chekin",
+        "description": "",
+        "id": "check-ins-feature;comment-data-chekin",
+        "after": [
+          {
+            "result": {
+              "duration": 974433400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11798410800,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8249007800,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10302949800,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "User see Check-ins page",
+            "match": {
+              "location": "CheckinsSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17900661500,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Input \"Test\" as Comment and save Comment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 7
+                }
+              ],
+              "location": "CheckinsSteps.InputComment(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4593497200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 70,
+        "name": "Set Date Feature",
+        "description": "",
+        "id": "check-ins-feature;set-date-feature",
+        "after": [
+          {
+            "result": {
+              "duration": 906927300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11787282500,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8251150600,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10269322000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User see Check-ins page",
+            "match": {
+              "location": "CheckinsSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9628967800,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Set Date \"11.00 AM\" as a time",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11.00 AM",
+                  "offset": 10
+                }
+              ],
+              "location": "CheckinsSteps.SetdateCheckIn(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4738760900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 77,
+        "name": "Null Day Input",
+        "description": "",
+        "id": "check-ins-feature;null-day-input",
+        "after": [
+          {
+            "result": {
+              "duration": 1151012700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11731471900,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8233703300,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10309996200,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "User see Check-ins page",
+            "match": {
+              "location": "CheckinsSteps.isDashboardIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12555210100,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Input \"TEST123\" in Question box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TEST123",
+                  "offset": 7
+                }
+              ],
+              "location": "CheckinsSteps.InputBoxNoDay(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17493577300,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\" //h1[.\u003d\u0027What question do you want to ask?\u0027]\"}\n  (Session info: chrome\u003d100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027YUBIHARTLAND\u0027, ip: \u0027192.168.100.6\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\YUBIHA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ff48c1cde3dc93e0c6356556ea569ff9\n*** Element info: {Using\u003dxpath, value\u003d //h1[.\u003d\u0027What question do you want to ask?\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)\r\n\tat pageObject.CheckinsPage.verifyNullDay(CheckinsPage.java:269)\r\n\tat StepDefinitions.CheckinsSteps.NullDayInput(CheckinsSteps.java:213)\r\n\tat ✽.And Null Input Day with verify response(features/ID03_Check-ins.feature:82)\r\n",
+              "status": "failed"
+            },
+            "line": 82,
+            "name": "Null Input Day with verify response",
+            "match": {
+              "location": "CheckinsSteps.NullDayInput()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Check-Ins Feature",
+    "description": "",
+    "id": "check-ins-feature",
+    "keyword": "Feature",
+    "uri": "features/ID03_Check-ins.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@all"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4264853300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Group Chat verify to the link page",
+        "description": "",
+        "id": "group-chat-feature;group-chat-verify-to-the-link-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1063295900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11845935000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8230543000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9377821400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User see Group Chat page",
+            "match": {
+              "location": "GroupChatSteps.verifyDasboardGroupChat()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4556465200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Group Chat Input",
+        "description": "",
+        "id": "group-chat-feature;group-chat-input",
+        "after": [
+          {
+            "result": {
+              "duration": 1044658400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11699824200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8245268000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9314269500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User see Group Chat page",
+            "match": {
+              "location": "GroupChatSteps.verifyDasboardGroupChat()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13393523300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Input \"Halo\" as a Chat and Send",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Halo",
+                  "offset": 7
+                }
+              ],
+              "location": "GroupChatSteps.inputTextSend(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4823372900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify Chat",
+        "description": "",
+        "id": "group-chat-feature;verify-chat",
+        "after": [
+          {
+            "result": {
+              "duration": 960835300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11882611000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8247376200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9345568200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User see Group Chat page",
+            "match": {
+              "location": "GroupChatSteps.verifyDasboardGroupChat()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11089414900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify \"Halo\" as a Chat",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Halo",
+                  "offset": 8
+                }
+              ],
+              "location": "GroupChatSteps.verifyTextChat(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4511444100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Tag member chat",
+        "description": "",
+        "id": "group-chat-feature;tag-member-chat",
+        "after": [
+          {
+            "result": {
+              "duration": 949244300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11801148600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8213834700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9303015500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User see Group Chat page",
+            "match": {
+              "location": "GroupChatSteps.verifyDasboardGroupChat()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12724315800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Tag \"@yubihartland\" as member",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@yubihartland",
+                  "offset": 5
+                }
+              ],
+              "location": "GroupChatSteps.inputTagMember(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4622014500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Attach file in collom chat",
+        "description": "",
+        "id": "group-chat-feature;attach-file-in-collom-chat",
+        "after": [
+          {
+            "result": {
+              "duration": 976397000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11907569700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8215023500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9364449500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User see Group Chat page",
+            "match": {
+              "location": "GroupChatSteps.verifyDasboardGroupChat()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6152606700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Attach file \"C:\\\\Users\\\\yubihartland\\\\Desktop\\\\logo.png\" as a file",
+            "match": {
+              "arguments": [
+                {
+                  "val": "C:\\\\Users\\\\yubihartland\\\\Desktop\\\\logo.png",
+                  "offset": 13
+                }
+              ],
+              "location": "GroupChatSteps.attachFile(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4177154700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Send Null Chat",
+        "description": "",
+        "id": "group-chat-feature;send-null-chat",
+        "after": [
+          {
+            "result": {
+              "duration": 1104897900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11791315500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8196114800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9383948500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User see Group Chat page",
+            "match": {
+              "location": "GroupChatSteps.verifyDasboardGroupChat()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9356371900,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//img[@src\u003d\u0027https://storage.googleapis.com/staging-cicle-app/61fd1bca835d691ce6fc470d/624d9c8db4dad6e15911fbc2/d1ccfb46f88fb97df83777f60af63248/logo.png\u0027]\"}\n  (Session info: chrome\u003d100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027YUBIHARTLAND\u0027, ip: \u0027192.168.100.6\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\YUBIHA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 14e31abeb6396fb21af1e8e938bbd8dc\n*** Element info: {Using\u003dxpath, value\u003d//img[@src\u003d\u0027https://storage.googleapis.com/staging-cicle-app/61fd1bca835d691ce6fc470d/624d9c8db4dad6e15911fbc2/d1ccfb46f88fb97df83777f60af63248/logo.png\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)\r\n\tat pageObject.GroupChatPage.nullChat(GroupChatPage.java:128)\r\n\tat StepDefinitions.GroupChatSteps.NullChat(GroupChatSteps.java:76)\r\n\tat ✽.When Input Null Chat(features/ID04_GroupChat.feature:37)\r\n",
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "Input Null Chat",
+            "match": {
+              "location": "GroupChatSteps.NullChat()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Group Chat Feature",
+    "description": "",
+    "id": "group-chat-feature",
+    "keyword": "Feature",
+    "uri": "features/ID04_GroupChat.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@all"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4187648500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Board verify to the link page",
+        "description": "",
+        "id": "board-feature;board-verify-to-the-link-page",
+        "after": [
+          {
+            "result": {
+              "duration": 875228700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11768953000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8225219900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5224589800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User see Board Page",
+            "match": {
+              "location": "BoardSteps.ClikDirectToBoardPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4116230700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Add Card Feature",
+        "description": "",
+        "id": "board-feature;add-card-feature",
+        "after": [
+          {
+            "result": {
+              "duration": 891972000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11702682200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8202825000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5235404800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User see Board Page",
+            "match": {
+              "location": "BoardSteps.ClikDirectToBoardPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2057555200,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027ListContainer_ListContainer__outerList__1PG0-\u0027]/div[1]//div[@class\u003d\u0027ListContainer_ListContainer__buttonBottom__2kZAI\u0027]\"}\n  (Session info: chrome\u003d100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027YUBIHARTLAND\u0027, ip: \u0027192.168.100.6\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\YUBIHA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 94f356655229fb78eeea2acfcbe12cd3\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027ListContainer_ListContainer__outerList__1PG0-\u0027]/div[1]//div[@class\u003d\u0027ListContainer_ListContainer__buttonBottom__2kZAI\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat pageObject.BoardPage.addCardButton(BoardPage.java:126)\r\n\tat StepDefinitions.BoardSteps.InputAddCardName(BoardSteps.java:34)\r\n\tat ✽.When User Add Card with \"HaloTest\" as name card(features/ID05_Board.feature:13)\r\n",
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "User Add Card with \"HaloTest\" as name card",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HaloTest",
+                  "offset": 20
+                }
+              ],
+              "location": "BoardSteps.InputAddCardName(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4472336400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Quick Comment Feature",
+        "description": "",
+        "id": "board-feature;quick-comment-feature",
+        "after": [
+          {
+            "result": {
+              "duration": 886118600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11897928100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9637010100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5225626900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User see Board Page",
+            "match": {
+              "location": "BoardSteps.ClikDirectToBoardPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2054930600,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027ListContainer_ListContainer__outerList__1PG0-\u0027]//div[@class\u003d\u0027ListCard_ListDroppable__1sdGc\u0027]/div[1]//div[@id\u003d\u0027editCardMenu\u0027]\"}\n  (Session info: chrome\u003d100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027YUBIHARTLAND\u0027, ip: \u0027192.168.100.6\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\YUBIHA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52752}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0a697aabd101122016cd74ccbc8c0e84\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027ListContainer_ListContainer__outerList__1PG0-\u0027]//div[@class\u003d\u0027ListCard_ListDroppable__1sdGc\u0027]/div[1]//div[@id\u003d\u0027editCardMenu\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat pageObject.BoardPage.menuBoardClick(BoardPage.java:141)\r\n\tat StepDefinitions.BoardSteps.InputQuickComment(BoardSteps.java:48)\r\n\tat ✽.When Input Quick Comment \"Test 123\" as comment(features/ID05_Board.feature:19)\r\n",
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "Input Quick Comment \"Test 123\" as comment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test 123",
+                  "offset": 21
+                }
+              ],
+              "location": "BoardSteps.InputQuickComment(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4472916700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Add List Feature",
+        "description": "",
+        "id": "board-feature;add-list-feature",
+        "after": [
+          {
+            "result": {
+              "duration": 876528200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12426761400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8255192600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5230653500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User see Board Page",
+            "match": {
+              "location": "BoardSteps.ClikDirectToBoardPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2048904300,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[.\u003d\u0027Add List\u0027]\"}\n  (Session info: chrome\u003d100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027YUBIHARTLAND\u0027, ip: \u0027192.168.100.6\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\YUBIHA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52808}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 28362c100090db8e6331e5e6c0ab1ab1\n*** Element info: {Using\u003dxpath, value\u003d//a[.\u003d\u0027Add List\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat pageObject.BoardPage.clickAddListFeature(BoardPage.java:166)\r\n\tat StepDefinitions.BoardSteps.addList(BoardSteps.java:65)\r\n\tat ✽.When Add list Feature and input \"Feature Yubi\" as name(features/ID05_Board.feature:25)\r\n",
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "Add list Feature and input \"Feature Yubi\" as name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Feature Yubi",
+                  "offset": 28
+                }
+              ],
+              "location": "BoardSteps.addList(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4340847400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Move Card Feature",
+        "description": "",
+        "id": "board-feature;move-card-feature",
+        "after": [
+          {
+            "result": {
+              "duration": 870031800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11642238900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8218382300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5235517300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User see Board Page",
+            "match": {
+              "location": "BoardSteps.ClikDirectToBoardPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2049213200,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href\u003d\u0027/cards/62512a6496738afb37354a1b\u0027]\"}\n  (Session info: chrome\u003d100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027YUBIHARTLAND\u0027, ip: \u0027192.168.100.6\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\YUBIHA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e87ad9e044ba64f98629672b24c59ab2\n*** Element info: {Using\u003dxpath, value\u003d//a[@href\u003d\u0027/cards/62512a6496738afb37354a1b\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat pageObject.BoardPage.clickYubiCardTest(BoardPage.java:181)\r\n\tat StepDefinitions.BoardSteps.moveCard(BoardSteps.java:77)\r\n\tat ✽.When Move Card YUBI TEST(features/ID05_Board.feature:31)\r\n",
+              "status": "failed"
+            },
+            "line": 31,
+            "name": "Move Card YUBI TEST",
+            "match": {
+              "location": "BoardSteps.moveCard()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4240024300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Attach file in card board",
+        "description": "",
+        "id": "board-feature;attach-file-in-card-board",
+        "after": [
+          {
+            "result": {
+              "duration": 845112500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11832314500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User Login \"qa.yubi17@gmail.com\" as email \"yubi1234\" as password and direct to Paket C",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa.yubi17@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "yubi1234",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckinsSteps.inputCreadential(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8237898300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User go to Dasboard Paket C",
+            "match": {
+              "location": "CheckinsSteps.verifyClickPaket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5248162400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User see Board Page",
+            "match": {
+              "location": "BoardSteps.ClikDirectToBoardPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2064155400,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href\u003d\u0027/cards/62512a6496738afb37354a1b\u0027]\"}\n  (Session info: chrome\u003d100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027YUBIHARTLAND\u0027, ip: \u0027192.168.100.6\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\YUBIHA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: abb74c0e5de429d186ccd80c6f00814b\n*** Element info: {Using\u003dxpath, value\u003d//a[@href\u003d\u0027/cards/62512a6496738afb37354a1b\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat pageObject.BoardPage.clickYubiCardTest(BoardPage.java:181)\r\n\tat StepDefinitions.BoardSteps.attachCardYubi(BoardSteps.java:94)\r\n\tat ✽.When Attach file in board card Yubi \"C:\\\\Users\\\\yubihartland\\\\Desktop\\\\logo.png\" as a file(features/ID05_Board.feature:37)\r\n",
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "Attach file in board card Yubi \"C:\\\\Users\\\\yubihartland\\\\Desktop\\\\logo.png\" as a file",
+            "match": {
+              "arguments": [
+                {
+                  "val": "C:\\\\Users\\\\yubihartland\\\\Desktop\\\\logo.png",
+                  "offset": 32
+                }
+              ],
+              "location": "BoardSteps.attachCardYubi(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Board Feature",
+    "description": "",
+    "id": "board-feature",
+    "keyword": "Feature",
+    "uri": "features/ID05_Board.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@all"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+
+9
+java:S3010"#Remove this assignment of "driver".(ÁÜÑ¥
+K
+java:S2209"5Change this instance-reference to a static reference.(ÁÜÑ¥
+c	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İáœˆ
+@
+java:S1068
+"*Remove this unused "driver" private field.(ëÇ×
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«¥ığ

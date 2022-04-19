@@ -1,0 +1,6 @@
+pageObject\CheckinsPage.class
+pageObject\DashboardPaketCPage.class
+com\yubi\App.class
+pageObject\BoardPage.class
+pageObject\GroupChatPage.class
+pageObject\LoginPage.class
